@@ -127,7 +127,7 @@
 var zbj_ad_pop_cookie_name="zbj_ad_pop_cookie_name";
 var zbj_ad_pop_cookie_time=24*3600;
 
-//ртио╧Ц╦Ф╢ЗбК╫АйЬ
+//О©╫О©╫О©╫о╧О©╫О©╫О©╫О©╫О©╫О©╫О©╫О©╫
 
 
 //jquery.1.4.2-min.js 

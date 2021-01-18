@@ -1,13 +1,24 @@
 package com.javapandeng.controller;
 
 import com.javapandeng.base.BaseController;
+import com.javapandeng.po.Item;
 import com.javapandeng.po.ItemCategory;
+import com.javapandeng.po.TjDto;
 import com.javapandeng.service.ItemCategoryService;
+import com.javapandeng.service.ItemService;
 import com.javapandeng.utils.Pager;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
+import org.springframework.util.CollectionUtils;
 import org.springframework.web.bind.annotation.RequestMapping;
+
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
 
 /**
  * 类目c层
@@ -143,5 +154,37 @@ public class ItemCategoryController extends BaseController {
         load.setIsDelete(1);
         itemCategoryService.updateById(load);
         return "redirect:/itemCategory/findBySql2.action?pid="+pid;
+    }
+
+    @Autowired
+    private ItemService itemService;
+
+    @RequestMapping(value = "/tj")
+    public String tj(ItemCategory itemCategory, Model model, HttpServletRequest request, HttpServletResponse response) {
+        //分页查询
+        String sql = "SELECT * FROM item_category WHERE isDelete = 0 and pid is null";
+        sql += " ORDER BY ID DESC ";
+        List<ItemCategory> list = itemCategoryService.listBySqlReturnEntity(sql);
+        List<Map<String,Object>> maps = new ArrayList<Map<String,Object>>();
+        List<TjDto> res = new ArrayList<TjDto>();
+        if (!CollectionUtils.isEmpty(list)){
+            for (ItemCategory c : list){
+                TjDto td = new TjDto();
+                int tot = 0;
+                List<Item> listBySqlReturnEntity = itemService.listBySqlReturnEntity("SELECT * FROM item WHERE 1=1 and isDelete =0 and category_id_one="+c.getId());
+                if (!CollectionUtils.isEmpty(listBySqlReturnEntity)){
+                    for (Item i : listBySqlReturnEntity){
+                        tot+= i.getGmNum();
+                    }
+                }
+                Map<String,Object> map = new HashMap<String,Object>();
+                map.put("name", c.getName());
+                map.put("value", tot);
+                maps.add(map);
+            }
+        }
+        //存储查询条件
+        model.addAttribute("maps", maps);
+        return "itemCategory/tj";
     }
 }

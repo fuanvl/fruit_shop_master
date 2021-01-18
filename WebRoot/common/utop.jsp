@@ -18,6 +18,8 @@
                 <b></b>
                 <a href="${ctx}/login/res">注册</a>
                 <b></b>
+                <a href="${ctx}/login/login.html">管理后台</a>
+                <b></b>
             </c:if>
             <a href="${ctx}/user/view">个人中心</a>
         </div>

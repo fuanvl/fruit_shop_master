@@ -3,10 +3,10 @@
 <html>
 	<head>
 		<title>首页</title>
-		<meta http-equiv="refresh" content="0;url=login/uIndex">
+		<meta http-equiv="refresh" content="3;url=login/uIndex">
 	</head>
 	<body>
-		默认首页
+	<a href="http://localhost:8080/test1_war_exploded/login/login.html" target="_blank">访问后端</a>
 	</body>
 	
 </html>

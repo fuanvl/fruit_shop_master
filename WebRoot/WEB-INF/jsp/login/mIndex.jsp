@@ -44,7 +44,7 @@
         </li>
     </ul>
     <div class="admin">
-        <iframe name="right" scrolling="auto" frameborder="0" width="100%" height="100%"></iframe>
+        <iframe scrolling="auto" rameborder="0" src="${ctx}/itemCategory/tj" name="right" width="100%" height="100%"></iframe>
     </div>
 </body>
 </html>
