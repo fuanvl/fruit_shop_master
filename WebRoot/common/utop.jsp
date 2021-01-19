@@ -27,10 +27,10 @@
 </div>
 <div class="width100 hidden_yh">
     <div class="width1200 center_yh hidden_yh">
-        <a href="#" class="block_yh left_yh">
-            <img src="${ctx}/resource/images/logo.png" alt="" style="height: 70px">
+        <a href="http://localhost:8080/test1_war_exploded/login/uIndex" class="block_yh left_yh">
+            <img src="${ctx}/resource/images/mine/logo.png" alt="" style="height: 90px;margin-top:20px">
         </a>
-        <div class="right_yh" style="height:28px;width:316px;border:2px solid #dd4545;margin-top:-40px;">
+        <div class="right_yh" style="height:28px;width:316px;border:2px solid #dd4545;margin-top:50px">
             <form action="${ctx}/item/shoplist" method="post">
                 <input type="text" placeholder="关键词查询" class="search" name="condition" value="${condition}">
                 <input type="submit" class="btnSearh" value="搜索">

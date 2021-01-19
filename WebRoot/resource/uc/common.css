@@ -84,7 +84,7 @@ td, th { padding: 0; }
 
 p, ul, ol, dd { margin: 0; }
 
-body { min-width: 1260px; font-size: 14px; line-height: 1.715; font-family: "Helvetica Neue", Helvetica, STHeiTi, "Microsoft YaHei", "微软雅黑", SimSun, sans-serif; color: #666; }
+body { min-width: 1260px; font-size: 14px; line-height: 1.715; font-family: "Helvetica Neue", Helvetica, STHeiTi, "Microsoft YaHei", "Microsoft YaHei", SimSun, sans-serif; color: #666; }
 
 ul, ol { padding-left: 0; list-style-type: none; }
 

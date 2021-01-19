@@ -9,7 +9,8 @@
     <script src="${ctx}/resource/user/js/jquery-1.8.3.min.js"></script>
     <script src="${ctx}/resource/user/js/jquery.luara.0.0.1.min.js"></script>
 </head>
-<body>
+<body >
+
     <%@include file="/common/utop.jsp"%>
 <!--导航条-->
 <div class="width100" style="height: 45px;background: #dd4545;margin-top: 40px;position: relative;z-index: 100;">
@@ -47,13 +48,15 @@
     </div>
 </div>
 <!--轮动广告-->
-<div class="width1200 center_yh hidden_yh" style="position: relative;z-index:80;">
-    <div class="example2" style="width: 1200px;height: 490px;overflow: hidden;margin-left: 230px;">
+<div class="width1920 center_yh hidden_yh" style="position: relative;z-index:80;background: url(${ctx}/resource/images/index_bg.png)no-repeat 50% 0;width: 1920px;height: 490px;">
+<%--<div class="width1200 center_yh hidden_yh" style="background: url(${ctx}/resource/images/index_bg.png)no-repeat 50% 0;">--%>
+
+    <div class="example2" style="width: 1200px;height: 490px;overflow: hidden;margin-left: 580px;">
         <ul>
-            <li><img src="${ctx}/resource/images/a.webp" alt=""></li>
-            <li><img src="${ctx}/resource/images/b.webp" alt=""></li>
-            <li><img src="${ctx}/resource/images/c.webp" alt=""></li>
-            <li><img src="${ctx}/resource/images/d.webp" alt=""></li>
+            <li><img src="${ctx}/resource/images/mine/a.jpg" alt=""></li>
+            <li><img src="${ctx}/resource/images/mine/b.jpg" alt=""></li>
+            <li><img src="${ctx}/resource/images/mine/c.jpg" alt=""></li>
+            <li><img src="${ctx}/resource/images/mine/d.jpg" alt=""></li>
         </ul>
     </div>
     <script>
@@ -71,9 +74,9 @@
         <div class="normalPic">
             <c:forEach items="${zks}" var="data" varStatus="l">
                 <a href="${ctx}/item/view?id=${data.id}">
-                    <h3 class="yihang c_33 font14 font100" style="padding-left: 10px;padding-right: 10px;">${data.name}</h3>
-                    <p class="red font14" style="padding-left: 10px;">${data.price}</p>
-                    <img src="${data.url1}" width="105" height="118" alt="" style="margin:0 auto">
+                    <h3 class="yihang c_33 font18 font100" style="padding-left: 10px;padding-right: 10px;">${data.name}</h3>
+                    <img src="${data.url1}" width="105" height="118" alt="" style="margin:0 auto;padding-top: 10px">
+                    <p class="red font18" style="padding-left: 70px;padding-top: 10px">¥  ${data.price}</p>
                 </a>
             </c:forEach>
         </div>
@@ -89,9 +92,9 @@
         <div class="normalPic">
             <c:forEach items="${rxs}" var="data" varStatus="l">
                 <a href="${ctx}/item/view?id=${data.id}">
-                    <h3 class="yihang c_33 font14 font100" style="padding-left: 10px;padding-right: 10px;">${data.name}</h3>
-                    <p class="red font14" style="padding-left: 10px;">${data.price}</p>
-                    <img src="${data.url1}" width="105" height="118" alt="" style="margin:0 auto">
+                    <h3 class="yihang c_33 font18 font100" style="padding-left: 10px;padding-right: 10px;">${data.name}</h3>
+                    <img src="${data.url1}" width="105" height="118" alt="" style="margin:0 auto;padding-top: 10px">
+                    <p class="red font18" style="padding-left: 70px;padding-top: 10px">¥  ${data.price}</p>
                 </a>
             </c:forEach>
         </div>
