@@ -50,12 +50,14 @@
                 <h3 class="spName">${data.name}</h3>
                 <p class="center_yh block_yh hidden_yh" style="width: 202px;">
                     <font class="left_yh red font16">￥${data.price}</font>
-                    <c:if test="${data.zk!=null}">
-                        <font class="right_yh font14">
+
+<%--                    <c:if test="${data.zk!=null}">
+                        <font class="relative_yh font16"style="left: 10px">
                             ${data.zk}
-                            <span style="color: red">折</span>
+                            <span style="color: red">折优惠</span>
                         </font>
-                    </c:if>
+                    </c:if>--%>
+                    <font class="right_yh font16">已售出${data.gmNum}件</font>
                 </p>
                 <div class="wCa">
                     <a href="${ctx}/sc/exAdd?itemId=${data.id}" class="fav">

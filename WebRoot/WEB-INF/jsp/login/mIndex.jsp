@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="${ctx}/resource/css/admin.css">
     <script src="${ctx}/resource/js/jquery.js"></script>
     <script src="${ctx}/resource/js/pintuer.js"></script>
+<%--    <link type="text/css" rel="stylesheet" href="${ctx}/resource/user/css/style.css">--%>
 </head>
 <body style="background-color: #f2f9fd">
     <div class="header bg-main">
@@ -17,10 +18,13 @@
         </div>
         <div class="head-l">
             <a class="button button-little bg-green" href="${ctx}/login/uIndex" target="_blank">
-                <span class="icon-home"></span>前台首页
+                <span class="icon-home"></span> 前台首页
             </a>
             <a class="button button-little bg-red" href="mtuichu.html">
-                <span class="icon-power-off"></span>退出登录
+                <span class="icon-power-off"></span> 退出登录
+            </a>
+            <a class="button button-little bg-yellow">
+                <span class="icon-android"></span> 欢迎您：admin
             </a>
         </div>
     </div>
@@ -38,13 +42,15 @@
     </div>
     <ul class="bread">
         <li><a href="http://localhost:8080/test1_war_exploded/itemCategory/tj" target="right" class="icon-home">首页</a> </li>
-        <li><a href="#">网站信息</a> </li>
+        <li><a href="http://localhost:8080/test1_war_exploded/common/ufooter.jsp">网站信息</a> </li>
 <%--        <li><b>当前语言：</b><span style="color:red">中文</span>
-            &nbsp;&nbsp;&nbsp;&nbsp;切换语言：<a href="#">中文</a>&nbsp;&nbsp;<a href="#">英文</a>--%>
-        </li>
+            &nbsp;&nbsp;&nbsp;&nbsp;切换语言：<a href="#">中文</a>&nbsp;&nbsp;<a href="#">英文</a>
+        </li>--%>
     </ul>
     <div class="admin">
         <iframe scrolling="auto" rameborder="0" src="${ctx}/itemCategory/tj" name="right" width="100%" height="100%"></iframe>
     </div>
+
 </body>
+
 </html>

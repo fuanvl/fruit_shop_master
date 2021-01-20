@@ -24,7 +24,7 @@
     </div>
 </div>
 
-<div class="width1200 center_yh hidden_yh font14" style="height: 40px;line-height: 40px;">
+<%--<div class="width1200 center_yh hidden_yh font14" style="height: 40px;line-height: 40px;">--%>
 </div>
 <div class="width100 hidden_yh" style="background: #f0f0f0;padding-top:34px;padding-bottom: 34px;">
     <div class="width1200 hidden_yh center_yh">
