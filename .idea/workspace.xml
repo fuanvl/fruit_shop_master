@@ -10,108 +10,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f3d12665-1a05-4a96-ba40-b426cd0fab25" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/jsp/login/toFindPass.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/jsp/user/update.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebRoot/resource/ueditor/upload/e938fef05b5011eb927f5b510f13f5b12.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/http-client.cookies" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/http-client.cookies" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/webContexts.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/webContexts.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/jsp/comment/comment.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/jsp/login/mIndex.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/jsp/login/mIndex.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/jsp/login/uIndex.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/jsp/login/uIndex.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/jsp/login/uLogin.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/jsp/login/uLogin.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/jsp/user/user.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/jsp/user/user.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/jsp/user/view.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/jsp/user/view.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebRoot/common/ufooter.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/WebRoot/common/ufooter.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop.sql" beforeDir="false" afterPath="$PROJECT_DIR$/shop.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/javapandeng/base/BaseController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/edu/xmut/stu/lyc/base/BaseController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/javapandeng/base/BaseDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/edu/xmut/stu/lyc/base/BaseDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/javapandeng/base/BaseService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/edu/xmut/stu/lyc/base/BaseService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/javapandeng/base/BaseServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/edu/xmut/stu/lyc/base/BaseServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/javapandeng/controller/CarController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/edu/xmut/stu/lyc/controller/CarController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/javapandeng/controller/CommentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/edu/xmut/stu/lyc/controller/CommentController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/javapandeng/controller/ItemCategoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/edu/xmut/stu/lyc/controller/ItemCategoryController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/javapandeng/controller/ItemController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/edu/xmut/stu/lyc/controller/ItemController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/javapandeng/controller/ItemOrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/edu/xmut/stu/lyc/controller/ItemOrderController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/javapandeng/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/edu/xmut/stu/lyc/controller/LoginController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/javapandeng/controller/MessageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/edu/xmut/stu/lyc/controller/MessageController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/javapandeng/controller/NewsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/edu/xmut/stu/lyc/controller/NewsController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/javapandeng/controller/OrderDetailController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/edu/xmut/stu/lyc/controller/OrderDetailController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/javapandeng/controller/ScController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/edu/xmut/stu/lyc/controller/ScController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/javapandeng/controller/UeditorController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/edu/xmut/stu/lyc/controller/UeditorController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/javapandeng/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/edu/xmut/stu/lyc/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/javapandeng/filter/SystemContextFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/edu/xmut/stu/lyc/filter/SystemContextFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/javapandeng/mapper/CarMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/edu/xmut/stu/lyc/mapper/CarMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/javapandeng/mapper/CarMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/edu/xmut/stu/lyc/mapper/CarMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/javapandeng/mapper/CommentMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/edu/xmut/stu/lyc/mapper/CommentMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/javapandeng/mapper/CommentMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/edu/xmut/stu/lyc/mapper/CommentMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/javapandeng/mapper/ItemCategoryMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/edu/xmut/stu/lyc/mapper/ItemCategoryMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/javapandeng/mapper/ItemCategoryMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/edu/xmut/stu/lyc/mapper/ItemCategoryMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/javapandeng/mapper/ItemMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/edu/xmut/stu/lyc/mapper/ItemMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/javapandeng/mapper/ItemMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/edu/xmut/stu/lyc/mapper/ItemMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/javapandeng/mapper/ItemOrderMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/edu/xmut/stu/lyc/mapper/ItemOrderMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/javapandeng/mapper/ItemOrderMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/edu/xmut/stu/lyc/mapper/ItemOrderMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/javapandeng/mapper/ManageMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/edu/xmut/stu/lyc/mapper/ManageMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/javapandeng/mapper/ManageMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/edu/xmut/stu/lyc/mapper/ManageMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/javapandeng/mapper/MessageMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/edu/xmut/stu/lyc/mapper/MessageMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/javapandeng/mapper/MessageMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/edu/xmut/stu/lyc/mapper/MessageMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/javapandeng/mapper/NewsMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/edu/xmut/stu/lyc/mapper/NewsMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/javapandeng/mapper/NewsMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/edu/xmut/stu/lyc/mapper/NewsMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/javapandeng/mapper/OrderDetailMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/edu/xmut/stu/lyc/mapper/OrderDetailMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/javapandeng/mapper/OrderDetailMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/edu/xmut/stu/lyc/mapper/OrderDetailMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/javapandeng/mapper/ScMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/edu/xmut/stu/lyc/mapper/ScMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/javapandeng/mapper/ScMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/edu/xmut/stu/lyc/mapper/ScMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/javapandeng/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/edu/xmut/stu/lyc/mapper/UserMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/javapandeng/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/edu/xmut/stu/lyc/mapper/UserMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/javapandeng/po/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/edu/xmut/stu/lyc/po/Car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/javapandeng/po/CarDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/edu/xmut/stu/lyc/po/CarDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/javapandeng/po/CategoryDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/edu/xmut/stu/lyc/po/CategoryDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/javapandeng/po/Comment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/edu/xmut/stu/lyc/po/Comment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/javapandeng/po/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/edu/xmut/stu/lyc/po/Item.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/javapandeng/po/ItemCategory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/edu/xmut/stu/lyc/po/ItemCategory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/javapandeng/po/ItemOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/edu/xmut/stu/lyc/po/ItemOrder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/javapandeng/po/Manage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/edu/xmut/stu/lyc/po/Manage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/javapandeng/po/Message.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/edu/xmut/stu/lyc/po/Message.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/javapandeng/po/News.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/edu/xmut/stu/lyc/po/News.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/javapandeng/po/OrderDetail.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/edu/xmut/stu/lyc/po/OrderDetail.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/javapandeng/po/Sc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/edu/xmut/stu/lyc/po/Sc.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/javapandeng/po/TjDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/edu/xmut/stu/lyc/po/TjDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/javapandeng/po/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/edu/xmut/stu/lyc/po/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/javapandeng/service/CarService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/edu/xmut/stu/lyc/service/CarService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/javapandeng/service/CommentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/edu/xmut/stu/lyc/service/CommentService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/javapandeng/service/ItemCategoryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/edu/xmut/stu/lyc/service/ItemCategoryService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/javapandeng/service/ItemOrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/edu/xmut/stu/lyc/service/ItemOrderService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/javapandeng/service/ItemService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/edu/xmut/stu/lyc/service/ItemService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/javapandeng/service/ManageService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/edu/xmut/stu/lyc/service/ManageService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/javapandeng/service/MessageService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/edu/xmut/stu/lyc/service/MessageService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/javapandeng/service/NewsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/edu/xmut/stu/lyc/service/NewsService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/javapandeng/service/OrderDetailService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/edu/xmut/stu/lyc/service/OrderDetailService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/javapandeng/service/ScService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/edu/xmut/stu/lyc/service/ScService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/javapandeng/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/edu/xmut/stu/lyc/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/javapandeng/service/impl/CarServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/edu/xmut/stu/lyc/service/impl/CarServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/javapandeng/service/impl/CommentServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/edu/xmut/stu/lyc/service/impl/CommentServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/javapandeng/service/impl/ItemCategoryServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/edu/xmut/stu/lyc/service/impl/ItemCategoryServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/javapandeng/service/impl/ItemOrderServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/edu/xmut/stu/lyc/service/impl/ItemOrderServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/javapandeng/service/impl/ItemServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/edu/xmut/stu/lyc/service/impl/ItemServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/javapandeng/service/impl/ManageServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/edu/xmut/stu/lyc/service/impl/ManageServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/javapandeng/service/impl/MessageServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/edu/xmut/stu/lyc/service/impl/MessageServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/javapandeng/service/impl/NewsServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/edu/xmut/stu/lyc/service/impl/NewsServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/javapandeng/service/impl/OrderDetailServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/edu/xmut/stu/lyc/service/impl/OrderDetailServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/javapandeng/service/impl/ScServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/edu/xmut/stu/lyc/service/impl/ScServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/javapandeng/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/edu/xmut/stu/lyc/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/javapandeng/utils/Consts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/edu/xmut/stu/lyc/utils/Consts.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/javapandeng/utils/DateUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/edu/xmut/stu/lyc/utils/DateUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/javapandeng/utils/HttpConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/edu/xmut/stu/lyc/utils/HttpConstants.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/javapandeng/utils/ItemDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/edu/xmut/stu/lyc/utils/ItemDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/javapandeng/utils/JsonUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/edu/xmut/stu/lyc/utils/JsonUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/javapandeng/utils/Message.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/edu/xmut/stu/lyc/utils/Message.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/javapandeng/utils/Pager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/edu/xmut/stu/lyc/utils/Pager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/javapandeng/utils/SystemContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/edu/xmut/stu/lyc/utils/SystemContext.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/javapandeng/utils/UUIDUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/edu/xmut/stu/lyc/utils/UUIDUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mybatis/sqlMapConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/mybatis/sqlMapConfig.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/spring/applicationContext-dao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/spring/applicationContext-dao.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/spring/applicationContext-service.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/spring/applicationContext-service.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/spring/springmvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/spring/springmvc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/edu/xmut/stu/lyc/controller/CommentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/edu/xmut/stu/lyc/controller/CommentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/edu/xmut/stu/lyc/controller/ItemController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/edu/xmut/stu/lyc/controller/ItemController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/edu/xmut/stu/lyc/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/edu/xmut/stu/lyc/controller/LoginController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -314,7 +220,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Database Script.shop.sql">
+  <component name="RunManager" selected="Tomcat Server.Tomcat 9.0.35">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -558,7 +464,7 @@
       <workItem from="1611050951812" duration="10159000" />
       <workItem from="1611106345608" duration="21796000" />
       <workItem from="1611141298675" duration="2894000" />
-      <workItem from="1611145769091" duration="27141000" />
+      <workItem from="1611145769091" duration="29295000" />
     </task>
     <task id="LOCAL-00001" summary="修复了不能上传图片的bug">
       <created>1610939637523</created>
@@ -588,7 +494,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611167123764</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="修复bug">
+      <created>1611179336217</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1611179336217</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -634,7 +547,8 @@
     <MESSAGE value="改进了首页显示效果" />
     <MESSAGE value="样式修改" />
     <MESSAGE value="集合测试" />
-    <option name="LAST_COMMIT_MESSAGE" value="集合测试" />
+    <MESSAGE value="修复bug" />
+    <option name="LAST_COMMIT_MESSAGE" value="修复bug" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

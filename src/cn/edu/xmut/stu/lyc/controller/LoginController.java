@@ -101,6 +101,9 @@ public class LoginController extends BaseController {
         List<Item> rxs = itemService.listBySqlReturnEntity("select * from item where isDelete=0 order by gmNum desc limit 0,10");
         model.addAttribute("rxs",rxs);
 
+        List<Item> news = itemService.listBySqlReturnEntity("select * from item where isDelete=0 order by id desc limit 0,10");
+        model.addAttribute("news",news);
+
         return "login/uIndex";
     }
 

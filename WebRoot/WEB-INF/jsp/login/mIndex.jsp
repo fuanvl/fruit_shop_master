@@ -38,6 +38,7 @@
             <li><a href="${ctx}/itemOrder/findBySql" target="right"><span class="icon-caret-right"></span>订单管理</a> </li>
             <li><a href="${ctx}/news/findBySql" target="right"><span class="icon-caret-right"></span>公告管理</a> </li>
             <li><a href="${ctx}/message/findBySql" target="right"><span class="icon-caret-right"></span>留言管理</a> </li>
+            <li><a href="${ctx}/comment/findBySql" target="right"><span class="icon-caret-right"></span>评论管理</a> </li>
         </ul>
     </div>
     <ul class="bread">

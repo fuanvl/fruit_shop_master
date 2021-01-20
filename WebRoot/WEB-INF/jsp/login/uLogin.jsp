@@ -37,9 +37,8 @@
 
 
             </form>
-            <a href="${ctx}/login/toFindPass"  class="center_yh"
-               style="height: 43px;font-size: 16px;background: #b50d2c;outline: none;border: 0;color: #fff; cursor:pointer;margin-top: 20px">找回密码</a>
-<%--                <a href="${ctx}/login/toFindPass" onclick="changeSearch()" class="button border-main icon-search">找回密码</a>--%>
+            <a href="${ctx}/login/toFindPass"  class="right_yh"
+               style="line-height: 43px;font-size: 18px;outline: none;border: 0;color: #b50d2c; cursor:pointer;margin-top: 20px;margin-right: 50px">找回密码</a>
         </div>
 
     </div>

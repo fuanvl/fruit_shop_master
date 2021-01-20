@@ -102,7 +102,6 @@ public class ItemController extends BaseController {
                 if (files[s].getSize() != 0) {
                     String n = UUIDUtils.create();
                     String path = SystemContext.getRealPath() + "\\resource\\ueditor\\upload\\" + n + files[s].getOriginalFilename();
-                    System.out.println(files[s].getOriginalFilename());
                     File newFile = new File(path);
                     files[s].transferTo(newFile);
                     if (s == 0) {

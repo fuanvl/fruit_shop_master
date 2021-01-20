@@ -77,7 +77,7 @@
      style="background: url(${ctx}/resource/images/mine/fresh_category3_bg_right.png)">
     <div class="width100"
          style="height: 45px;line-height: 45px;border-bottom: 2px solid #b50d2c; margin-top: 40px;">
-        <font class="left_yh font20">折扣大促销</font>
+        <font class="left_yh font20">特价专柜</font>
     </div>
     <div class="width100 hidden_yh" style="height: 480px;">
         <div class="normalPic">
@@ -98,11 +98,32 @@
      style="background: url(${ctx}/resource/images/mine/fresh_category3_bg_left.png)">
     <div class="width100"
          style="height: 45px;line-height: 45px;border-bottom: 2px solid #b50d2c; margin-top: 20px;">
-        <font class="left_yh font20">热门商品</font>
+        <font class="left_yh font20">畅销排行</font>
     </div>
     <div class="width100 hidden_yh" style="height: 480px;">
         <div class="normalPic">
             <c:forEach items="${rxs}" var="data" varStatus="l">
+                <a href="${ctx}/item/view?id=${data.id}">
+                    <h3 class="yihang c_33 font18 font100"
+                        style="padding-left: 10px;padding-right: 10px;">${data.name}</h3>
+                    <img src="${data.url1}" width="105" height="118" alt="" style="margin:0 auto;padding-top: 10px">
+                    <p class="red font18" style="padding-left: 70px;padding-top: 10px">¥ ${data.price}</p>
+                </a>
+            </c:forEach>
+        </div>
+    </div>
+</div>
+
+<!--新品上架-->
+<div class="width1200 center_yh hidden_yh"
+     style="background: url(${ctx}/resource/images/mine/fresh_category3_bg_right.png)">
+    <div class="width100"
+         style="height: 45px;line-height: 45px;border-bottom: 2px solid #b50d2c; margin-top: 20px;">
+        <font class="left_yh font20">新品上架</font>
+    </div>
+    <div class="width100 hidden_yh" style="height: 480px;">
+        <div class="normalPic">
+            <c:forEach items="${news}" var="data" varStatus="l">
                 <a href="${ctx}/item/view?id=${data.id}">
                     <h3 class="yihang c_33 font18 font100"
                         style="padding-left: 10px;padding-right: 10px;">${data.name}</h3>
