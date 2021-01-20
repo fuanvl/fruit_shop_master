@@ -15,10 +15,12 @@ import com.javapandeng.utils.SystemContext;
 public class SystemContextFilter implements Filter {
     private Integer pageSize;
 
+    @Override
     public void destroy() {
 
     }
 
+    @Override
     public void doFilter(ServletRequest req, ServletResponse resp,
                          FilterChain chain) throws IOException, ServletException {
         Integer offset = 0;
@@ -42,6 +44,7 @@ public class SystemContextFilter implements Filter {
         }
     }
 
+    @Override
     public void init(FilterConfig cfg) throws ServletException {
         try {
             pageSize = Integer.parseInt(cfg.getInitParameter("pageSize"));

@@ -24,7 +24,7 @@
                         <img src="${ctx}/resource/user/images/pass.jpg" alt="" class="left_yh" width="42" height="42">
                         <input type="password" placeholder="请输入密码" name="passWord" value="" style="border: 0;width: 292px;height: 42px; font-size: 16px;text-indent: 22px;">
                     </div>
-                    <input type="submit" value="登录" class="center_yh" style="width: 100%;height: 43px;font-size: 16px;background: #dd4545;outline: none;border: 0;color: #fff; cursor:pointer;">
+                    <input type="submit" value="登录" class="center_yh" style="width: 100%;height: 43px;font-size: 16px;background: #b50d2c;outline: none;border: 0;color: #fff; cursor:pointer;">
                 </div>
             </form>
         </div>

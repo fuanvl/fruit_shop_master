@@ -12,6 +12,7 @@
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
           <element id="module-output" name="test1" />
+          <element id="jpa-descriptors" facet="test1/jpa/JPA" />
         </element>
         <element id="directory" name="lib">
           <element id="library" level="project" name="Maven: org.apache.maven.plugins:maven-compiler-plugin:3.8.1" />

@@ -73,19 +73,19 @@ input,select{font-size:14px;}
 .n3{margin-top:-90px;}
 .n4{margin-top:-135px;}
 .ipt_tj{width:293px;height:35px;text-align:center;line-height:35px;color:#fff;background:red;border:0;outline:none;cursor:pointer;margin:0 auto;display:block;margin-top:80px;}
-.ipt_tj:hover{background:#dd4545;}
+.ipt_tj:hover{background:#b50d2c;}
 #fast_jump a{color:#666;padding-left:25px;padding-right:25px;float:left;}
 #fast_jump a:nth-last-child(1){padding-right:0;}
-#fast_jump a:hover{color:#dd4545;}
+#fast_jump a:hover{color:#b50d2c;}
 #fast_jump b{display:block;width:0px; box-sizing:border-box;border-right:1px solid #999;float:left;height:10px;margin-top:8px;}
 .searCh{width:257px;height:28px;border:0;outline:none;font-size:14px;color:#999;display:block;float:left;text-indent:10px;}
-.btnSearh{width:59px;height:28px;background:#dd4545;border:0;display:block;float:right;color:#fff;}
+.btnSearh{width:59px;height:28px;background:#b50d2c;border:0;display:block;float:right;color:#fff;}
 .btnSearh:hover{background:#bf3a3a}
 .Selected{background:#ff5802;}
 .Selected .downSlide{display:block;}
 #pageNav a{display:block;float:left;width:150px;text-align:center;line-height:45px;height:45px;}
 #pageNav a:hover{letter-spacing:3px;padding-left:6px;padding-right:6px;transition:0.3s;text-decoration:underline;}
-.downSlide{width:230px;height:490px;background:#dd4545;position:absolute;top:45px;left:0;display:none;}
+.downSlide{width:230px;height:490px;background:#b50d2c;position:absolute;top:45px;left:0;display:none;}
 #hiddenShow:hover{background:#ff5802;}
 #hiddenShow:hover .downSlide{display:block;}
 .n1Nav{width:230px;height:45px;display:block;line-height:45px;cursor:pointer;}
@@ -146,7 +146,7 @@ input,select{font-size:14px;}
 #t_a,.t_a{float:left;display:block;width:25px;height:25px;border:1px solid #e3e5e9;text-align:center;line-height:21px;color:#666;}
 .buyFor{width:100%;overflow:hidden;margin-top:25px;}
 .buyFor a{display:block;width:176px;height:46px;float:left;text-align:center;line-height:46px;color:#fff;margin-right:34px;font-size:16px;}
-.mstBuy{background:#dd4545;}
+.mstBuy{background:#b50d2c;}
 .mstBuy:hover{background:#bc3a3a;}
 .addCar{background:#ff5802;}
 .addCar:hover{background:#de4e04;}
@@ -160,7 +160,7 @@ input,select{font-size:14px;}
 #spXqpj{border:1px solid #ddd;width:886px;height:46px;background:#f0f0f0;}
 #spXqpj a{display:block;float:left;width:156px;height:46px;border-right:1px solid #ddd;text-align:center;line-height:46px;color:#333;font-size:16px;}
 #spXqpj a:hover{text-decoration:underline;}
-#spXqpj a.on{background:#dd4545;color:#fff;}
+#spXqpj a.on{background:#b50d2c;color:#fff;}
 #spDetil{width:888px;height:auto;overflow:hidden;}
 #spPj{width:886px;height:auto;overflow:hidden;border:1px solid #ddd;border-top:none;display:none;}
 .spGg{width:846px;height:auto;border:1px solid #ddd;padding:20px;border-top:none;overflow:hidden;margin-bottom:25px;}
@@ -173,7 +173,7 @@ input,select{font-size:14px;}
 #navs{width:100%;height:auto;overflow:hidden;text-align:center;cursor:pointer;}
 #nav_in{display:inline-block;border:1px solid #ddd;border-radius:6px;overflow:hidden;}
 #navs a{display:inline-block;padding:6px 10px;color:#337ab7;color:#333;}
-#navs a:hover{background:#dd4545;color:#fff;}
+#navs a:hover{background:#b50d2c;color:#fff;}
 .pjBoxG{display:none;}
 .pjBoxL{display:none;}
 #filter{width:1158px;height:auto;overflow:hidden;padding:20px;border:1px solid #ddd;margin:0 auto;padding-bottom:4px;}
@@ -218,14 +218,14 @@ input,select{font-size:14px;}
 .xzSl{width:175px;float:left;height:128px;overflow:hidden;}
 .xzSlIn{width:88px;height:25px;overflow:hidden;border:1px solid #ddd;margin:0 auto;margin-top:46px;}
 .xzSlIn b{display:block;width:24px;height:25px;border-right:1px solid #ddd;float:left;font-weight:100;font-size:12px;color:#333;line-height:25px;text-align:center;background:#fff;}
-.xzSlIn b:hover{background:#dd4545;cursor:pointer;color:#fff;}
+.xzSlIn b:hover{background:#b50d2c;cursor:pointer;color:#fff;}
 .xzSlIn input{display:block;outline:none;border:0;float:left;height:25px;width:38px;text-align:center;font-size:16px;}
 .xzXj{width:175px;float:left;text-align:center;font-size:16px;height:128px;line-height:128px;color:red;}
 .xzCz{width:187px;height:128px;float:left;}
 .xzCzIn{width:145px;height:auto;overflow:hidden;margin:0 auto;margin-top:46px;font-size:14px;color:#666;}
 .xzCzIn a{display:block;width:100%;color:#666;}
-.xzCzIn a.on{color:#dd4545;}
-.xzCzIn a:hover{color:#dd4545;}
+.xzCzIn a.on{color:#b50d2c;}
+.xzCzIn a:hover{color:#b50d2c;}
 .ifAll{float:left;overflow:hidden;width:53px;height:60px;line-height:60px;cursor:pointer;}
 .ifAll b{display:block;width:16px;height:16px;overflow:hidden;margin-top:22px;float:left;}
 .ifAll b img{width:16px;height:32px;}
@@ -240,7 +240,7 @@ input,select{font-size:14px;}
 .sXd1{float:left;height:60px;line-height:60px;margin-right:43px;}
 .sXd2{float:left;height:60px;line-height:60px;margin-right:43px;}
 .ifJs{float:left;width:144px;height:60px;background:#cb1c20;text-align:center;line-height:60px;font-size:16px;color:#fff;display:block;}
-.ifJs:hover{background:#dd4545;}
+.ifJs:hover{background:#b50d2c;}
 .on1 img{margin-top:0;}
 .on2 img{margin-top:-45px;}
 .onHover:hover{text-decoration:underline;}
@@ -262,8 +262,8 @@ input,select{font-size:14px;}
 .green{color:#0C3;}
 .mG:hover img{margin-top:-26px;}
 #conNav span{display:block;float:left;font-size:24px;height:74px;line-height:74px;cursor:pointer;}
-#conNav span:hover{color:#dd4545;}
-#conNav span.on{color:#dd4545;}
+#conNav span:hover{color:#b50d2c;}
+#conNav span.on{color:#b50d2c;}
 
 
 

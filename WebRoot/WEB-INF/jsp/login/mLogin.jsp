@@ -11,8 +11,8 @@
     <script src="${ctx}/resource/js/jquery.js"></script>
     <script src="${ctx}/resource/js/pintuer.js"></script>
 </head>
-<body>
-<div class="bg"></div>
+<body style="background: url(${ctx}/resource/images/mine/sprite_fresh_bgs.png)">
+<%--<div class="admin.bg"></div>--%>
 <div class="container">
     <div class="line bouncein">
         <div class="xs6 xm4 xs3-move xm4-move">

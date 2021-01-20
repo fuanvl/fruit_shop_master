@@ -12,9 +12,9 @@
 <body>
     <%@include file="/common/utop.jsp"%>
 <!--导航条-->
-<div class="width100" style="height: 45px;background: #dd4545;margin-top: 40px;position: relative;z-index: 100;">
+<div class="width100" style="background: #f0f0f0;position: relative;z-index: 100;">
     <!--中间的部分-->
-    <div class="width1200 center_yh relative_yh" style="height: 45px;">
+     <div class="width1200 center_yh relative_yh" style="height: 45px;background: #b50d2c;z-index: 100;">
         <!--普通导航-->
         <div class="left_yh font16" id="pageNav">
             <a href="${ctx}/login/uIndex">首页</a>
@@ -29,7 +29,7 @@
     ><a href="#" class="c_66">个人中心</a>
     ><a href="#" class="c_66">我的订单</a>
 </div>
-<div class="width100 hidden_yh" style="background: #f0f0f0;padding-top: 34px;padding-bottom: 34px;">
+<div class="width100 hidden_yh" style="padding-top: 34px;padding-bottom: 34px;">
     <div class="width1200 hidden_yh center_yh">
         <div id="vipNav">
             <a href="${ctx}/user/view">个人信息</a>

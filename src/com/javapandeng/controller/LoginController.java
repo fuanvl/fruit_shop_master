@@ -57,12 +57,12 @@ public class LoginController extends BaseController {
      */
     @RequestMapping("toLogin")
     public String toLogin(Manage manage, HttpServletRequest request){
-       Manage byEntity = manageService.getByEntity(manage);
-       if(byEntity==null){
-           return "redirect:/login/mtuichu";
-       }
-       request.getSession().setAttribute(Consts.MANAGE,byEntity);
-       return "/login/mIndex";
+        Manage byEntity = manageService.getByEntity(manage);
+        if(byEntity==null){
+            return "redirect:/login/mtuichu";
+        }
+        request.getSession().setAttribute(Consts.MANAGE,byEntity);
+        return "/login/mIndex";
     }
 
     /**
