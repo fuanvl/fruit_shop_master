@@ -48,7 +48,7 @@
 
     <filter>
         <filter-name>SystemContextFilter</filter-name>
-        <filter-class>com.javapandeng.filter.SystemContextFilter</filter-class>
+        <filter-class>cn.edu.xmut.stu.lyc.filter.SystemContextFilter</filter-class>
         <init-param>
             <param-name>pageSize</param-name>
             <param-value>15</param-value>

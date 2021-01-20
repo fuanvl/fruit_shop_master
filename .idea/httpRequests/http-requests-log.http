@@ -1,3 +1,21 @@
+DELETE http://localhost:8080/test1_war_exploded/user/delete
+
+<> 2021-01-21T044201.404.html
+
+###
+
+GET http://localhost:8080/test1_war_exploded/user/view
+
+<> 2021-01-21T033250.200.html
+
+###
+
+GET http://localhost:8080/test1_war_exploded/user/user_update_view
+
+<> 2021-01-21T033120.404.html
+
+###
+
 GET http://localhost:8080/test1_war_exploded/car/delete
 
 <> 2021-01-20T234943.200.json

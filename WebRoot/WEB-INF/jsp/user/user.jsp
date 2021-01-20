@@ -26,6 +26,7 @@
     <table class="table table-hover text-center">
         <tr>
             <th>用户名</th>
+            <th>密码</th>
             <th>手机号</th>
             <th>真实姓名</th>
             <th>性别</th>
@@ -35,11 +36,16 @@
     <c:forEach items="${pagers.datas}" var="data" varStatus="l">
         <tr>
             <td>${data.userName}</td>
+            <td>${data.passWord}</td>
             <td>${data.phone}</td>
             <td>${data.realName}</td>
             <td>${data.sex}</td>
             <td>${data.email}</td>
             <td>${data.address}</td>
+            <td>
+                <a class="button border-main" href="${ctx}/user/update?id=${data.id}"><span class="icon-edit">修改</span> </a>
+                <a class="button border-red" href="${ctx}/user/delete?id=${data.id}"><span class="icon-trash-o">删除</span> </a>
+            </td>
 
         </tr>
     </c:forEach>

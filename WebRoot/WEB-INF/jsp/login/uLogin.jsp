@@ -31,9 +31,17 @@
                     </div>
                     <input type="submit" value="登录" class="center_yh"
                            style="width: 100%;height: 43px;font-size: 16px;background: #b50d2c;outline: none;border: 0;color: #fff; cursor:pointer;">
+
                 </div>
+
+
+
             </form>
+            <a href="${ctx}/login/toFindPass"  class="center_yh"
+               style="height: 43px;font-size: 16px;background: #b50d2c;outline: none;border: 0;color: #fff; cursor:pointer;margin-top: 20px">找回密码</a>
+<%--                <a href="${ctx}/login/toFindPass" onclick="changeSearch()" class="button border-main icon-search">找回密码</a>--%>
         </div>
+
     </div>
 </div>
 <%@include file="/common/ufooter.jsp" %>
