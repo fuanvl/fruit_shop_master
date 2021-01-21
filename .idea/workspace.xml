@@ -10,13 +10,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f3d12665-1a05-4a96-ba40-b426cd0fab25" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/jsp/comment/comment.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/resource/ueditor/upload/ef6723d05b9911eb77c29d454279d23c2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/resource/ueditor/upload/ef6771f05b9911eb77c29d454279d23c2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/resource/ueditor/upload/ef6799005b9911eb77c29d454279d23c3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/resource/ueditor/upload/ef67c0105b9911eb77c29d454279d23cgfnnghwmny.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/resource/ueditor/upload/ef6835405b9911eb77c29d454279d23c2.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/jsp/login/mIndex.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/jsp/login/mIndex.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/jsp/login/uIndex.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/jsp/login/uIndex.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/jsp/login/uLogin.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/jsp/login/uLogin.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/edu/xmut/stu/lyc/controller/CommentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/edu/xmut/stu/lyc/controller/CommentController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/edu/xmut/stu/lyc/controller/ItemController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/edu/xmut/stu/lyc/controller/ItemController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/cn/edu/xmut/stu/lyc/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/edu/xmut/stu/lyc/controller/LoginController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -90,7 +89,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="android.sdk.path" value="$PROJECT_DIR$/../../../../../devTools/Sdk" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_directory_selection" value="$PROJECT_DIR$/src/com/javapandeng" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/cn/edu/xmut/stu/lyc/service" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../.." />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Artifacts" />
@@ -221,13 +220,15 @@
     </option>
   </component>
   <component name="RunManager" selected="Tomcat Server.Tomcat 9.0.35">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -431,9 +432,9 @@
       <item itemvalue="Database Script.shop.sql" />
       <item itemvalue="HTTP Request.generated-requests#1" />
       <item itemvalue="HTTP Request.test1-endpoints#1" />
-      <item itemvalue="Tomcat Server.Tomcat 9.0.35" />
       <item itemvalue="HTTP Request.generated-requests#3" />
       <item itemvalue="HTTP Request.generated-requests#4" />
+      <item itemvalue="Tomcat Server.Tomcat 9.0.35" />
     </list>
     <recent_temporary>
       <list>
@@ -464,7 +465,8 @@
       <workItem from="1611050951812" duration="10159000" />
       <workItem from="1611106345608" duration="21796000" />
       <workItem from="1611141298675" duration="2894000" />
-      <workItem from="1611145769091" duration="29295000" />
+      <workItem from="1611145769091" duration="29669000" />
+      <workItem from="1611192425520" duration="5133000" />
     </task>
     <task id="LOCAL-00001" summary="修复了不能上传图片的bug">
       <created>1610939637523</created>
@@ -501,7 +503,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611179336217</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="完整项目">
+      <created>1611181629700</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1611181629700</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -548,7 +557,8 @@
     <MESSAGE value="样式修改" />
     <MESSAGE value="集合测试" />
     <MESSAGE value="修复bug" />
-    <option name="LAST_COMMIT_MESSAGE" value="修复bug" />
+    <MESSAGE value="完整项目" />
+    <option name="LAST_COMMIT_MESSAGE" value="完整项目" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
